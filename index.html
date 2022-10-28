@@ -23,10 +23,22 @@
         </div>
         <p class="profile__name">Adedotun Segun</p>
       </header>
-      <a href="#"><p id="twitter">twitter username</p></a>
-      <a href="#"><p id="slack">slack username</p></a>
-      <!--THE LINKS SECTION-->
-      <main></main>
+
+      <div id="like_button_container"></div>
     </section>
+
+    <!-- Load React. -->
+    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+    <script
+      src="https://unpkg.com/react@18/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <!-- Load our React component. -->
+    <script type="text/babel" src="like_button.js"></script>
   </body>
 </html>
