@@ -190,12 +190,22 @@ footer {
   align-items: center;
 }
 @media (max-width: 480px) {
-  flex-direction: column;
-  align-items: flex-start;
+  .footer__sec {
+    flex-direction: column;
+
+    justify-content: space-around;
+  }
+  .imgfoot {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 799px) {
   .footer__sec {
     flex-direction: column;
     align-items: flex-start;
+    justify-content: space-evenly;
+  }
+  .imgfoot {
+    margin-top: 10px;
   }
 }
